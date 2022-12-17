@@ -1,4 +1,4 @@
-## ライブラリのInstall
+## ライブラリのインストール
 
 npm install
 
