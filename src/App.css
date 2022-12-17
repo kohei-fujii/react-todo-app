@@ -1,0 +1,15 @@
+.todo-list {
+  margin-top: 15px;
+  border: 2px solid #000000;
+}
+
+.done-list {
+  margin-top: 15px;
+  border: 2px solid #000000;
+}
+
+.task-layout {
+  margin: 15px;
+  background-color: aquamarine;
+  border: 2px solid #000000;
+}
