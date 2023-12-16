@@ -1,0 +1,11 @@
+name: Reploy React app to S3
+on:
+  push:
+      branches:
+        - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test echo
+        run: echo hello
