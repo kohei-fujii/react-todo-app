@@ -2,7 +2,7 @@ name: Reploy React app to S3
 on:
   push:
       branches:
-        - master
+        - main
 jobs:
   build:
     runs-on: ubuntu-latest
