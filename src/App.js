@@ -44,7 +44,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <p>タスク追加</p>
+            <p>タスク追加1</p>
             <Inputarea taskname={taskname} onChangeInputArea={onChangeInputArea} onChangeAddtaskButton={onChangeAddtaskButton} />
           </Col>
           <Col>
