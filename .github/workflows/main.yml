@@ -12,7 +12,7 @@ permissions:
   id-token: write
   contents: read
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -27,9 +27,6 @@ jobs:
         run: npm install
       - name: build
         run: npm run build
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name:  Copy React app to s3
+      - name:  deploy
         run: |
           aws s3 cp --recursive build s3://${{ env.S3_BUCKET_NAME }}/
